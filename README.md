@@ -30,3 +30,11 @@ REST API & Microservices
 Real Time Services (Chat, Live Updates)
 CRUD Apps - Blogs, Shopping Carts, Social Networks
 Tools & Utilities
+
+
+Node Core Modules (path, fs, http, etc)
+3rd party modules/packages installed via NPM
+Custom modules (files)
+
+const path = require('path');
+const myFile = require('./myFile');
