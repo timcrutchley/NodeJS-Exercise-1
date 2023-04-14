@@ -22,3 +22,11 @@ Events
 Event Loop
 
 Event Handlers
+
+
+Node is good for:
+
+REST API & Microservices
+Real Time Services (Chat, Live Updates)
+CRUD Apps - Blogs, Shopping Carts, Social Networks
+Tools & Utilities
