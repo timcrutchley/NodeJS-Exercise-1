@@ -41,3 +41,5 @@ const myFile = require('./myFile');
 
 
 goal completion: sunday March 16
+
+add more detailed notes here
