@@ -43,3 +43,7 @@ const myFile = require('./myFile');
 goal completion: sunday March 16
 
 add more detailed notes here
+
+
+Exercise 1:
+Create 'module' files and access them from index.js. Learn how the module wrapper function wraps around all our modules to give us access to exports, require and module.
