@@ -5,9 +5,9 @@
 
 // Module Wrapper Function
 // This wraps around the person.js module to give us acccess to exports, require, module
-(function (exports, require, module, __filename, __dirname) {
+// (function (exports, require, module, __filename, __dirname) {
 
-})
+// })
 
 class Person {
     constructor(name, age) {
