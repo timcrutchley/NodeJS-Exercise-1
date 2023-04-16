@@ -45,5 +45,8 @@ goal completion: sunday March 16
 add more detailed notes here
 
 
-Exercise 1:
+**Exercise 1:**<br>
 Create 'module' files and access them from index.js. Learn how the module wrapper function wraps around all our modules to give us access to exports, require and module.
+
+**Exercise 2:**
+Test different methods from the path_demo module. These are different ways to retrieve different parts of the path, including the ext and dir. However we can also create a path object which contains it all. We learn how to concatenate paths, which is useful for adding the correct delimiter (windows uses backslash while Mac & Linux use forwardslash)
