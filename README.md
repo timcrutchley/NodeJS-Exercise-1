@@ -54,3 +54,7 @@ Test different methods from the path_demo module. These are different ways to re
 **Exercise 3:** 04/16 <br>
 File System (FS) <br>
 A review of how to create folders, create & write to a file, how to append files, read and rename files
+
+**Exercise 3:** 04/16 <br>
+Operating System (OS) <br>
+A review of how to get various information about the Operating System, CPU, Memory
