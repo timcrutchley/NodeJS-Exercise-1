@@ -1,3 +1,7 @@
+// April 16, 2023
+// File System (FS)
+// A review of how to create folders, create & write to a file,
+// How to append files, read and rename files
 const fs = require('fs');
 const path = require('path');
 
