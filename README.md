@@ -58,3 +58,7 @@ A review of how to create folders, create & write to a file, how to append files
 **Exercise 3:** 04/16 <br>
 Operating System (OS) <br>
 A review of how to get various information about the Operating System, CPU, Memory
+
+**Exercise 4:** 04/16 <br>
+URL Demo <br>
+A review of how to get various info about our url, host and parameters
