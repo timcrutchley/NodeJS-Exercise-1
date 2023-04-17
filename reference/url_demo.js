@@ -1,6 +1,6 @@
 // April 16, 2023
 // URL Demo
-// We learn how to : 
+// We learn how to : get various info about our url, host and parameters
 
 const url = require('url');
 
