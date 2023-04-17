@@ -62,3 +62,7 @@ A review of how to get various information about the Operating System, CPU, Memo
 **Exercise 4:** 04/16 <br>
 URL Demo <br>
 A review of how to get various info about our url, host and parameters
+
+**Exercise 5 - Part 1:** 04/16 <br>
+Event Emitter Demo
+Shows how emitters interact with listeners to init objects & events
