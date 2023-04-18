@@ -40,7 +40,7 @@ const path = require('path');
 const myFile = require('./myFile');
 
 
-goal completion: sunday March 16
+goal completion: April 26th
 
 add more detailed notes here
 
