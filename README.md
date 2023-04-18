@@ -1,5 +1,5 @@
-# NodeJS-Exercise-1
-Node JS Exercise 1
+# NodeJS-Crash Course - Following Brad Traversy
+Node JS Crash Course
 
 Began **APRIL 12, 2023**
 
