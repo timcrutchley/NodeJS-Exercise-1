@@ -14,6 +14,7 @@ The objective of this Exercise is to be a crash course introduction to Node.JS
 It is asynchronous, single threaded. It can run tens of thousands of connections on one thread. This allows for efficiency and scalability. However, it is not ideal for CPU intensive actions.
 
 **NODES EVENT LOOP**
+*Subject should be looked up and more detail noted*
 
 EventEmitter Class is used to bind events & listeners
 
