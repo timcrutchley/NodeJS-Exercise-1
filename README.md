@@ -66,7 +66,8 @@ A review of how to get various info about our url, host and parameters
 
 **Exercise 5 - Part 1:** 04/16 <br>
 Event Emitter Demo
-Shows how emitters interact with listeners to init objects & events
+Shows how emitters interact with listeners to init objects & events<br>
 **Exercise 5 - Part 2:** 04/18 <br>
 Event Emitter - Logger Demo
 Shows how we can use the logger method to create our own custom logs.
+
