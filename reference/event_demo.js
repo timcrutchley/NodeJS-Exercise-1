@@ -1,6 +1,6 @@
 // April 16, 2023
 // Event Emitters
-// Much of Node.js core API is built around asynchronous event-driver architecture in which object called "emitters" emit named events that cause Function objects("listeners") to be called.
+// Much of Node.js core API is built around asynchronous event-driven architecture in which objects called "emitters" emit named events that cause Function objects("listeners") to be called.
 
 const EventEmitter = require('events');
 

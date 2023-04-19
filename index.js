@@ -2,12 +2,17 @@
 // Node.JS Crash Course
 
 // Common JS
-const Person = require('./person');
+// const Person = require('./person');
+// ES 6 - not implemented yet: import Person from './person';
+// const person1 = new Person('John Doe', 30);
+//person1.greeting();
 
-// ES 6 - not implemented yet
-// import Person from './person';
+const Logger = require('./logger');
 
+const logger = new Logger();
 
-const person1 = new Person('John Doe', 30);
+logger.on('message', data => console.log('Called Listener:', data));
 
-person1.greeting();
+logger.log('Hello World');
+logger.log('Hi');
+logger.log('Hello');
