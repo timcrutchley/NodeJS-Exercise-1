@@ -69,5 +69,5 @@ Event Emitter Demo
 Shows how emitters interact with listeners to init objects & events<br>
 **Exercise 5 - Part 2:** 04/18 <br>
 Event Emitter - Logger Demo
-Shows how we can use the logger method to create our own custom logs.
-
+Shows how we can use the logger method to create our own custom logs.<br>
+*TO DO: Include FS (File System) and append file with a log of the keys that are generated*
