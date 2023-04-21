@@ -74,3 +74,7 @@ Shows how we can use the logger method to create our own custom logs.<br>
 
 **Exercise 6 - Http Demo** 04/20 <br>
 Http Demo - A very simple demo of a functional http server
+
+
+**Exercise 7 - HTTP Server** 04/20<br>
+HTTP Server that runs (and displays) HTML files
