@@ -78,3 +78,7 @@ Http Demo - A very simple demo of a functional http server
 
 **Exercise 7 - HTTP Server** 04/20<br>
 HTTP Server that runs (and displays) HTML files
+
+
+**Exercise 8 - HTTP Server** 0422<br>
+HTTP Server with error handling page
