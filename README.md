@@ -80,5 +80,9 @@ Http Demo - A very simple demo of a functional http server
 HTTP Server that runs (and displays) HTML files
 
 
-**Exercise 8 - HTTP Server** 0422<br>
+**Exercise 8 - HTTP Server** 04/22<br>
 HTTP Server with error handling page
+
+
+**Exercise 9 - HTTP Server** 04/22<br>
+HTTP Server ready to deploy to Heroku
