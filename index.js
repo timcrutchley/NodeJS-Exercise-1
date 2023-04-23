@@ -33,10 +33,12 @@ const fs = require('fs');
 // });
 
 const server2 = http.createServer((req, res) => {
+    // Build File Path
     let filePath = path.join(
         __dirname, 
         'public', 
-        req.url === '/' ? 'index.html' : req.url);
+        req.url === '/' ? 'index.html' : req.url
+    );
 
     // Extension of file
     let extname = path.extname(filePath);
@@ -45,7 +47,7 @@ const server2 = http.createServer((req, res) => {
     let contentType = 'text/html';
 
     // Check ext and set content type
-    switch(extname) {
+    switch (extname) {
         case '.js':
             contentType = 'text/javascript';
             break;
@@ -61,7 +63,6 @@ const server2 = http.createServer((req, res) => {
         case '.jpg':
             contentType = 'image/jpg';
             break;
-
     }
 
     // Read File
@@ -69,10 +70,13 @@ const server2 = http.createServer((req, res) => {
         if(err) {
             if(err.code == 'ENOENT') {
                 // Page not found
-                fs.readFile(path.join(__dirname, 'public', '404.html'), (err, content) => {
-                    res.writeHead(200, { 'Content-Type': 'text/html'});
-                    res.end(content, 'utf8');  
-                });
+                fs.readFile(
+                    path.join(__dirname, 'public', '404.html'), 
+                    (err, content) => {
+                        res.writeHead(404, { 'Content-Type': 'text/html'});
+                        res.end(content, 'utf8');
+                    }
+                );
             } else {
                 // Some server error (500 most likely)
                 res.writeHead(500);
@@ -80,7 +84,7 @@ const server2 = http.createServer((req, res) => {
             }
         } else {
             // Success
-            res.writeHead(200, { 'Content-Type': 'text/html'});
+            res.writeHead(200, { 'Content-Type': contentType });
             res.end(content, 'utf8'); 
         }
     });
