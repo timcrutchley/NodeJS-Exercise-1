@@ -86,3 +86,6 @@ HTTP Server with error handling page
 
 **Exercise 9 - HTTP Server** 04/22<br>
 HTTP Server ready to deploy to Heroku
+
+
+To Do: look up basic node principals, ideologies & best practices. Come up with at least 5.
