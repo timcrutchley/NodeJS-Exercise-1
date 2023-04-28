@@ -92,3 +92,5 @@ To Do: look up basic node principals, ideologies & best practices. Come up with 
 
 1. Do not run as root
 2. do not use npm start
+
+look up Don'ts for node
