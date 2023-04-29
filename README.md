@@ -94,3 +94,5 @@ To Do: look up basic node principals, ideologies & best practices. Come up with 
 2. do not use npm start
 
 look up Don'ts for node
+
+write more detailed notes
